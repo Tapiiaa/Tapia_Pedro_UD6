@@ -1,7 +1,7 @@
 package Ejercicio5;
 
 public class Aplicación {
-    Lienzo lienzo = new Lienzo(10, 10);
+    private Lienzo lienzo = new Lienzo(10, 10);
 
     Menu menu = new Menu();
     //Esta es la clase que va a tener el main

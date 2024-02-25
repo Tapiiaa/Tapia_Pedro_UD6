@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Menu{
+- int opcion;
++void mostrarMenu();
+}
+class Lienzo{
+- int ancho
+- int alto
+- int char[][]matriz;
+
++Lienzo(int ancho, int alto)
++void inicializarLienzo();
+
+}
+class Aplicacion{
+-Lienzo lienzo
+-Menu menu
++main()
+menu.mostrarMenu()
+}
+class DibujarRectangulo{
+-int alto;
+-int ancho;
+-int caracter;
++DibujarRectangulo(int alto, int ancho, int caracter)
++ void dibujarRectanulo
+
+}
+
+@enduml

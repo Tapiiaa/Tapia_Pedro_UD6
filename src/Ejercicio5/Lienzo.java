@@ -20,11 +20,7 @@ public class Lienzo {
         }
     }
 
-    public void dibujarLineaHorizontal(int x, int y, int ancho, char caracter){
-        for (int i = 0; i < ancho; i++) {
-            matriz[y][x+i] = caracter;
-        }
-    }
+
 
 
 }

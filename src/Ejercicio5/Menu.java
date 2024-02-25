@@ -1,8 +1,8 @@
 package Ejercicio5;
 import java.util.Scanner;
-public class Menu {
+public class Menu{
     //Clase para solo definir el menú que aparecerá en la clase Aplicación
-    int opcion;
+    private int opcion;
     public void mostrarMenu(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese una opción:");
