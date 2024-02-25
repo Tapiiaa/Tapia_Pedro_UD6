@@ -3,9 +3,9 @@ package Ejercicio3;
 import java.util.Random;
 
 public class CreadorTablas {
-    int tamano;
-    int mínimo;
-    int máximo;
+    private int tamano;
+    private int mínimo;
+    private int máximo;
 
     public CreadorTablas(int tamano, int mínimo, int máximo) {
         this.tamano = tamano;

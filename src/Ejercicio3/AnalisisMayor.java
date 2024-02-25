@@ -1,8 +1,8 @@
 package Ejercicio3;
 
 public class AnalisisMayor {
-    int mayor;
-    int menor;
+    private int mayor;
+    private int menor;
 
     public AnalisisMayor(int[] tabla) {
         mayor = tabla[0];

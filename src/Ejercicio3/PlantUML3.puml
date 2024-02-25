@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class AnalisisMayor{
+- int mayor
+- int menor
++ AnalisisMayor(int tabla[])
++ int getMayor()
+}
+class Analizador{
++main()
+CreadorTablas creadorTablas = new CreadorTablas()
+int tabla[] = creadorTablas.crearTablas()
+AnalisisMayor analisisMayor = new AnalisisMayor(tabla)
+int mayor = analisisMayor.getMayor()
+}
+class CreadorTablas{
+- int tamano
+- int minimo
+- int maximo
++ CreadorTablas(int tamano, int minimo, int maximo)
++ int[] crearTabla()
+}
+
+@enduml
