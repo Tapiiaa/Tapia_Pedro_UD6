@@ -1,4 +1,17 @@
 @startuml
 'https://plantuml.com/sequence-diagram
-
+class Comparador{
+main()
+}
+class ComparadorDeNumerosReales{
+- int a
+- int b
++ ComparadorDeNumerosReales(int a, int b)
++ int getA()
++ int getB()
++ void setA(int a)
++ void setB(int b)
++ int comparar()
++ int clasificador()
+}
 @enduml
