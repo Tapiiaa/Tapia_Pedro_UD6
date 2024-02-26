@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-#Tarea 6 TÉCNICAS DE PROGRAMACIÓN
+Link a mi repositorio: https://github.com/Tapiiaa/Tapia_Pedro_UD6.git
+# Tarea 6 TÉCNICAS DE PROGRAMACIÓN
 
 # 1. EJERCICIO 1
 ## 1.1. Enunciado: 
